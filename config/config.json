@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "file-teams-saver-addin-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fileTeamsSaverAddin/FileTeamsSaverAddinWebPart.js",
+          "manifest": "./src/webparts/fileTeamsSaverAddin/FileTeamsSaverAddinWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FileTeamsSaverAddinWebPartStrings": "lib/webparts/fileTeamsSaverAddin/loc/{locale}.js"
+  }
+}
