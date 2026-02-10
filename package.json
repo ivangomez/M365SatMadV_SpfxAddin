@@ -32,14 +32,14 @@
   "devDependencies": {
     "@microsoft/microsoft-graph-types": "^1.12.0",
     "@microsoft/rush-stack-compiler-3.3": "0.3.5",
-    "@microsoft/sp-build-web": "1.10.0-plusbeta",
+    "@microsoft/sp-build-web": "1.12.0",
     "@microsoft/sp-module-interfaces": "1.10.0-plusbeta",
     "@microsoft/sp-tslint-rules": "1.10.0-plusbeta",
-    "@microsoft/sp-webpart-workbench": "1.10.0-plusbeta",
+    "@microsoft/sp-webpart-workbench": "1.12.0",
     "@types/chai": "3.4.34",
     "@types/mocha": "2.2.38",
     "@types/office-js": "^1.0.95",
     "ajv": "~5.2.2",
-    "gulp": "~3.9.1"
+    "gulp": "~5.0.1"
   }
 }
